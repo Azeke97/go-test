@@ -1,0 +1,37 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build output
+bin/
+*.a
+
+# Dependency directories (если используешь vendoring)
+vendor/
+
+# Go workspace file (Go 1.18+)
+go.work
+go.work.sum
+
+# Logs
+*.log
+
+# Coverage / test outputs
+*.cover
+*.coverprofile
+*.cov
+coverage.txt
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
